@@ -1,0 +1,915 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/faqLastSeventeenCardView"
+    android:orientation="vertical">
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fadeScrollbars="true"
+            android:focusable="true"
+            android:scrollbarStyle="insideOverlay"
+            app:cardCornerRadius="12sp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/li_koshtipathor_unicode"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/faqHeading17"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/bongobondu_unicode"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/faqDetails17"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="16sp">
+
+
+                </TextView>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fadeScrollbars="true"
+            android:focusable="true"
+            android:scrollbarStyle="insideOverlay"
+            app:cardCornerRadius="12sp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/li_koshtipathor_unicode"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/faqHeading18"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/bongobondu_unicode"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/faqDetails18"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="16sp">
+
+
+                </TextView>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fadeScrollbars="true"
+        android:focusable="true"
+        android:scrollbarStyle="insideOverlay"
+        app:cardCornerRadius="12sp"
+        app:cardElevation="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/li_koshtipathor_unicode"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/faqHeading19"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/bongobondu_unicode"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/faqDetails19"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="16sp">
+
+
+            </TextView>
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fadeScrollbars="true"
+        android:focusable="true"
+        android:scrollbarStyle="insideOverlay"
+        app:cardCornerRadius="12sp"
+        app:cardElevation="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/li_koshtipathor_unicode"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/faqHeading20"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/bongobondu_unicode"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/faqDetails20"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="16sp">
+
+
+            </TextView>
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fadeScrollbars="true"
+            android:focusable="true"
+            android:scrollbarStyle="insideOverlay"
+            app:cardCornerRadius="12sp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/li_koshtipathor_unicode"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/faqHeading21"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/bongobondu_unicode"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/faqDetails21"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="16sp">
+
+
+                </TextView>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fadeScrollbars="true"
+            android:focusable="true"
+            android:scrollbarStyle="insideOverlay"
+            app:cardCornerRadius="12sp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/li_koshtipathor_unicode"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/faqHeading22"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/bongobondu_unicode"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/faqDetails22"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="16sp">
+
+
+                </TextView>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fadeScrollbars="true"
+            android:focusable="true"
+            android:scrollbarStyle="insideOverlay"
+            app:cardCornerRadius="12sp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/li_koshtipathor_unicode"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/faqHeading23"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/bongobondu_unicode"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/faqDetails23"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="16sp">
+
+
+                </TextView>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fadeScrollbars="true"
+            android:focusable="true"
+            android:scrollbarStyle="insideOverlay"
+            app:cardCornerRadius="12sp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/li_koshtipathor_unicode"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/faqHeading24"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/bongobondu_unicode"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/faqDetails24"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="16sp">
+
+
+                </TextView>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fadeScrollbars="true"
+            android:focusable="true"
+            android:scrollbarStyle="insideOverlay"
+            app:cardCornerRadius="12sp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/li_koshtipathor_unicode"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/faqHeading25"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/bongobondu_unicode"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/faqDetails25"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="16sp">
+
+
+                </TextView>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fadeScrollbars="true"
+            android:focusable="true"
+            android:scrollbarStyle="insideOverlay"
+            app:cardCornerRadius="12sp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/li_koshtipathor_unicode"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/faqHeading26"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/bongobondu_unicode"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/faqDetails26"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="16sp">
+
+
+                </TextView>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fadeScrollbars="true"
+            android:focusable="true"
+            android:scrollbarStyle="insideOverlay"
+            app:cardCornerRadius="12sp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/li_koshtipathor_unicode"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/faqHeading27"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/bongobondu_unicode"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/faqDetails27"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="16sp">
+
+
+                </TextView>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fadeScrollbars="true"
+            android:focusable="true"
+            android:scrollbarStyle="insideOverlay"
+            app:cardCornerRadius="12sp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/li_koshtipathor_unicode"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/faqHeading28"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/bongobondu_unicode"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/faqDetails28"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="16sp">
+
+
+                </TextView>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fadeScrollbars="true"
+            android:focusable="true"
+            android:scrollbarStyle="insideOverlay"
+            app:cardCornerRadius="12sp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/li_koshtipathor_unicode"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/faqHeading29"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/bongobondu_unicode"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/faqDetails29"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="16sp">
+
+
+                </TextView>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fadeScrollbars="true"
+            android:focusable="true"
+            android:scrollbarStyle="insideOverlay"
+            app:cardCornerRadius="12sp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/li_koshtipathor_unicode"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/faqHeading30"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/bongobondu_unicode"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/faqDetails30"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="16sp">
+
+
+                </TextView>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fadeScrollbars="true"
+            android:focusable="true"
+            android:scrollbarStyle="insideOverlay"
+            app:cardCornerRadius="12sp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/li_koshtipathor_unicode"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/faqHeading31"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/bongobondu_unicode"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/faqDetails31"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="16sp">
+
+
+                </TextView>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fadeScrollbars="true"
+            android:focusable="true"
+            android:scrollbarStyle="insideOverlay"
+            app:cardCornerRadius="12sp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/li_koshtipathor_unicode"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/faqHeading32"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/bongobondu_unicode"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/faqDetails32"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="16sp">
+
+
+                </TextView>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fadeScrollbars="true"
+            android:focusable="true"
+            android:scrollbarStyle="insideOverlay"
+            app:cardCornerRadius="12sp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/li_koshtipathor_unicode"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/faqHeading33"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/bongobondu_unicode"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/faqDetails33"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="16sp">
+
+
+                </TextView>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fadeScrollbars="true"
+            android:focusable="true"
+            android:scrollbarStyle="insideOverlay"
+            app:cardCornerRadius="12sp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/li_koshtipathor_unicode"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/faqHeading34"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/bongobondu_unicode"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/faqDetails34"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="16sp">
+
+
+                </TextView>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+    </LinearLayout>

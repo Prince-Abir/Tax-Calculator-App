@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Tax Flow</string>
+    <string name="Developer_info">Developed by\nPrince Ayaan\n\nVersion : 1.0</string>
+    <string name="e_tin_card_title">E-tin (ই-টিন)</string>
+
+
+    <string-array name="Categories">
+
+        <item>Male</item>
+        <item>Female &amp; 65 years or Above</item>
+        <item>Disable Person</item>
+        <item>Gazetted War-Wounded Freedom Fighters</item>
+
+    </string-array>
+
+    <string name="Calculate">আয়কর হিসাব</string>
+    <string name="eTin">ই-টিন</string>
+    <string name="incomeTaxReturn">আয়কর রিটার্ন</string>
+    <string name="incomeTaxFAQ">আয়কর জিজ্ঞাসা</string>
+    <string name="Locations">কর অঞ্চলসমূহ</string>
+    <string name="incomeTaxLaws">আয়কর পরিপত্র</string>
+    <string name="incomeTaxReturnTitle">আয়কর রিটার্ন কি,কিভাবে করবেন,কোথায় করবেন?</string>
+    <string name="incomeTaxReturnForm">ডাউনলোড আয়কর রিটার্ন ফর্ম (পিডিএফ)</string>
+
+
+    <string name="TaxFlowAppDetails">Tax Flow is a simple App for Bangladeshi Citizen for not Only Calculating the Tax but knowing everything about tax and the process for paying tax as well!Tax Flow will help you to know Income Tax,Income Tax Return,E-tin,Tax Zones etc.</string>
+    <string name="developer_info">Tax Flow Designed and Developed by PrinceTechSoft.Ltd\n CC Alright reserved by the developer and team</string>
+
+</resources>

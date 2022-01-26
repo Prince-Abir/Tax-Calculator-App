@@ -1,0 +1,2125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TaxZones.TaxZoneActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:padding="5dp"
+            android:src="@drawable/location">
+
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/li_koshtipathor_unicode"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:padding="5dp"
+                android:text="Tax Zone (কর অঞ্চলসমূহ)"
+                android:textColor="@color/black"
+                android:textSize="18sp">
+
+
+            </TextView>
+
+
+            <View
+                android:layout_width="220dp"
+                android:layout_height="3dp"
+                android:layout_gravity="center"
+                android:background="@color/blue"
+                android:padding="5dp">
+
+            </View>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="60dp"
+        android:orientation="vertical">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="12dp">
+
+
+
+                    <RelativeLayout
+                        android:padding="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <TextView
+                            android:id="@+id/TaxZone1DhakaText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginBottom="20dp"
+                            android:fontFamily="@font/li_mak_charigram_unicode"
+                            android:padding="5dp"
+                            android:text="কর অঞ্চল ১ (ঢাকা)"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="20sp">
+
+
+                        </TextView>
+
+
+                        <ImageView
+                            android:id="@+id/TaxZone1DhakaWebLink"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="10dp"
+                            android:padding="5dp"
+                            android:src="@drawable/weblink">
+
+                        </ImageView>
+
+                        <ImageView
+                            android:id="@+id/TaxZone1DhakaFacebookLink"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentEnd="true"
+                            android:padding="5dp"
+                            android:layout_alignParentBottom="true"
+                            android:src="@drawable/facebook">
+
+                        </ImageView>
+
+                        <ImageView
+                            android:id="@+id/TaxZone1DhakaPhone"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_below="@+id/TaxZone1DhakaText"
+                            android:layout_alignParentBottom="true"
+                            android:padding="5dp"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/call">
+
+                        </ImageView>
+
+
+                    </RelativeLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="12dp">
+
+
+
+                    <RelativeLayout
+                        android:padding="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <TextView
+                            android:id="@+id/TaxZone2DhakaText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginBottom="20dp"
+                            android:fontFamily="@font/li_mak_charigram_unicode"
+                            android:padding="5dp"
+                            android:text="কর অঞ্চল ২ (ঢাকা)"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="20sp">
+
+
+                        </TextView>
+
+
+                        <ImageView
+                            android:id="@+id/TaxZone2DhakaWebLink"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="10dp"
+                            android:padding="5dp"
+                            android:src="@drawable/weblink">
+
+                        </ImageView>
+
+                        <ImageView
+                            android:id="@+id/TaxZone2DhakaFacebookLink"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentEnd="true"
+                            android:padding="5dp"
+                            android:layout_alignParentBottom="true"
+                            android:src="@drawable/facebook">
+
+                        </ImageView>
+
+                        <ImageView
+                            android:id="@+id/TaxZone2DhakaPhone"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_below="@+id/TaxZone2DhakaText"
+                            android:layout_alignParentBottom="true"
+                            android:padding="5dp"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/call">
+
+                        </ImageView>
+
+
+                    </RelativeLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="12dp">
+
+
+
+                    <RelativeLayout
+                        android:padding="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <TextView
+                            android:id="@+id/TaxZone3DhakaText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginBottom="20dp"
+                            android:fontFamily="@font/li_mak_charigram_unicode"
+                            android:padding="5dp"
+                            android:text="কর অঞ্চল ৩ (ঢাকা)"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="20sp">
+
+
+                        </TextView>
+
+
+                        <ImageView
+                            android:id="@+id/TaxZone3DhakaWebLink"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="10dp"
+                            android:padding="5dp"
+                            android:src="@drawable/weblink">
+
+                        </ImageView>
+
+                        <ImageView
+                            android:id="@+id/TaxZone3DhakaFacebookLink"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentEnd="true"
+                            android:padding="5dp"
+                            android:layout_alignParentBottom="true"
+                            android:src="@drawable/facebook">
+
+                        </ImageView>
+
+                        <ImageView
+                            android:id="@+id/TaxZone3DhakaPhone"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_below="@+id/TaxZone3DhakaText"
+                            android:layout_alignParentBottom="true"
+                            android:padding="5dp"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/call">
+
+                        </ImageView>
+
+
+                    </RelativeLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="12dp">
+
+
+
+                    <RelativeLayout
+                        android:padding="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <TextView
+                            android:id="@+id/TaxZone4DhakaText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginBottom="20dp"
+                            android:fontFamily="@font/li_mak_charigram_unicode"
+                            android:padding="5dp"
+                            android:text="কর অঞ্চল ৪ (ঢাকা)"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="20sp">
+
+
+                        </TextView>
+
+
+                        <ImageView
+                            android:id="@+id/TaxZone4DhakaWebLink"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="10dp"
+                            android:padding="5dp"
+                            android:src="@drawable/weblink">
+
+                        </ImageView>
+
+                        <ImageView
+                            android:id="@+id/TaxZone4DhakaFacebookLink"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentEnd="true"
+                            android:padding="5dp"
+                            android:layout_alignParentBottom="true"
+                            android:src="@drawable/facebook">
+
+                        </ImageView>
+
+                        <ImageView
+                            android:id="@+id/TaxZone4DhakaPhone"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_below="@+id/TaxZone4DhakaText"
+                            android:layout_alignParentBottom="true"
+                            android:padding="5dp"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/call">
+
+                        </ImageView>
+
+
+                    </RelativeLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="12dp">
+
+
+
+                    <RelativeLayout
+                        android:padding="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <TextView
+                            android:id="@+id/TaxZone5DhakaText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginBottom="20dp"
+                            android:fontFamily="@font/li_mak_charigram_unicode"
+                            android:padding="5dp"
+                            android:text="কর অঞ্চল ৫ (ঢাকা)"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="20sp">
+
+
+                        </TextView>
+
+
+                        <ImageView
+                            android:id="@+id/TaxZone5DhakaWebLink"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="10dp"
+                            android:padding="5dp"
+                            android:src="@drawable/weblink">
+
+                        </ImageView>
+
+                        <ImageView
+                            android:id="@+id/TaxZone5DhakaFacebookLink"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentEnd="true"
+                            android:padding="5dp"
+                            android:layout_alignParentBottom="true"
+                            android:src="@drawable/facebook">
+
+                        </ImageView>
+
+                        <ImageView
+                            android:id="@+id/TaxZone5DhakaPhone"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_below="@+id/TaxZone5DhakaText"
+                            android:layout_alignParentBottom="true"
+                            android:padding="5dp"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/call">
+
+                        </ImageView>
+
+
+                    </RelativeLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="12dp">
+
+
+
+                    <RelativeLayout
+                        android:padding="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <TextView
+                            android:id="@+id/TaxZone6DhakaText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginBottom="20dp"
+                            android:fontFamily="@font/li_mak_charigram_unicode"
+                            android:padding="5dp"
+                            android:text="কর অঞ্চল ৬ (ঢাকা)"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="20sp">
+
+
+                        </TextView>
+
+
+                        <ImageView
+                            android:id="@+id/TaxZone6DhakaWebLink"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="10dp"
+                            android:padding="5dp"
+                            android:src="@drawable/weblink">
+
+                        </ImageView>
+
+                        <ImageView
+                            android:id="@+id/TaxZone6DhakaFacebookLink"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentEnd="true"
+                            android:padding="5dp"
+                            android:layout_alignParentBottom="true"
+                            android:src="@drawable/facebook">
+
+                        </ImageView>
+
+                        <ImageView
+                            android:id="@+id/TaxZone6DhakaPhone"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_below="@+id/TaxZone6DhakaText"
+                            android:layout_alignParentBottom="true"
+                            android:padding="5dp"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/call">
+
+                        </ImageView>
+
+
+                    </RelativeLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="12dp">
+
+
+
+                    <RelativeLayout
+                        android:padding="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <TextView
+                            android:id="@+id/TaxZone7DhakaText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginBottom="20dp"
+                            android:fontFamily="@font/li_mak_charigram_unicode"
+                            android:padding="5dp"
+                            android:text="কর অঞ্চল ৭ (ঢাকা)"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="20sp">
+
+
+                        </TextView>
+
+
+                        <ImageView
+                            android:id="@+id/TaxZone7DhakaWebLink"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="10dp"
+                            android:padding="5dp"
+                            android:src="@drawable/weblink">
+
+                        </ImageView>
+
+                        <ImageView
+                            android:id="@+id/TaxZone7DhakaFacebookLink"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentEnd="true"
+                            android:padding="5dp"
+                            android:layout_alignParentBottom="true"
+                            android:src="@drawable/facebook">
+
+                        </ImageView>
+
+                        <ImageView
+                            android:id="@+id/TaxZone7DhakaPhone"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_below="@+id/TaxZone7DhakaText"
+                            android:layout_alignParentBottom="true"
+                            android:padding="5dp"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/call">
+
+                        </ImageView>
+
+
+                    </RelativeLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="12dp">
+
+
+
+                    <RelativeLayout
+                        android:padding="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <TextView
+                            android:id="@+id/TaxZone8DhakaText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginBottom="20dp"
+                            android:fontFamily="@font/li_mak_charigram_unicode"
+                            android:padding="5dp"
+                            android:text="কর অঞ্চল ৮ (ঢাকা)"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="20sp">
+
+
+                        </TextView>
+
+
+                        <ImageView
+                            android:id="@+id/TaxZone8DhakaWebLink"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="10dp"
+                            android:padding="5dp"
+                            android:src="@drawable/weblink">
+
+                        </ImageView>
+
+                        <ImageView
+                            android:id="@+id/TaxZone8DhakaFacebookLink"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentEnd="true"
+                            android:padding="5dp"
+                            android:layout_alignParentBottom="true"
+                            android:src="@drawable/facebook">
+
+                        </ImageView>
+
+                        <ImageView
+                            android:id="@+id/TaxZone8DhakaPhone"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_below="@+id/TaxZone8DhakaText"
+                            android:layout_alignParentBottom="true"
+                            android:padding="5dp"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/call">
+
+                        </ImageView>
+
+
+                    </RelativeLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="12dp">
+
+
+
+                    <RelativeLayout
+                        android:padding="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <TextView
+                            android:id="@+id/TaxZone9DhakaText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginBottom="20dp"
+                            android:fontFamily="@font/li_mak_charigram_unicode"
+                            android:padding="5dp"
+                            android:text="কর অঞ্চল ৯ (ঢাকা)"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="20sp">
+
+
+                        </TextView>
+
+
+                        <ImageView
+                            android:id="@+id/TaxZone9DhakaWebLink"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="10dp"
+                            android:padding="5dp"
+                            android:src="@drawable/weblink">
+
+                        </ImageView>
+
+                        <ImageView
+                            android:id="@+id/TaxZone9DhakaFacebookLink"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentEnd="true"
+                            android:padding="5dp"
+                            android:layout_alignParentBottom="true"
+                            android:src="@drawable/facebook">
+
+                        </ImageView>
+
+                        <ImageView
+                            android:id="@+id/TaxZone9DhakaPhone"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_below="@+id/TaxZone9DhakaText"
+                            android:layout_alignParentBottom="true"
+                            android:padding="5dp"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/call">
+
+                        </ImageView>
+
+
+                    </RelativeLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="12dp">
+
+
+
+                    <RelativeLayout
+                        android:padding="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <TextView
+                            android:id="@+id/TaxZone11DhakaText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginBottom="20dp"
+                            android:fontFamily="@font/li_mak_charigram_unicode"
+                            android:padding="5dp"
+                            android:text="কর অঞ্চল ১১ (ঢাকা)"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="20sp">
+
+
+                        </TextView>
+
+
+                        <ImageView
+                            android:id="@+id/TaxZone11DhakaWebLink"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="10dp"
+                            android:padding="5dp"
+                            android:src="@drawable/weblink">
+
+                        </ImageView>
+
+                        <ImageView
+                            android:id="@+id/TaxZone11DhakaFacebookLink"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentEnd="true"
+                            android:padding="5dp"
+                            android:layout_alignParentBottom="true"
+                            android:src="@drawable/facebook">
+
+                        </ImageView>
+
+                        <ImageView
+                            android:id="@+id/TaxZone11DhakaPhone"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_below="@+id/TaxZone11DhakaText"
+                            android:layout_alignParentBottom="true"
+                            android:padding="5dp"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/call">
+
+                        </ImageView>
+
+
+                    </RelativeLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="12dp">
+
+
+
+                    <RelativeLayout
+                        android:padding="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <TextView
+                            android:id="@+id/TaxZone12DhakaText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginBottom="20dp"
+                            android:fontFamily="@font/li_mak_charigram_unicode"
+                            android:padding="5dp"
+                            android:text="কর অঞ্চল ১২ (ঢাকা)"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="20sp">
+
+
+                        </TextView>
+
+
+                        <ImageView
+                            android:id="@+id/TaxZone12DhakaWebLink"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="10dp"
+                            android:padding="5dp"
+                            android:src="@drawable/weblink">
+
+                        </ImageView>
+
+                        <ImageView
+                            android:id="@+id/TaxZone12DhakaFacebookLink"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentEnd="true"
+                            android:padding="5dp"
+                            android:layout_alignParentBottom="true"
+                            android:src="@drawable/facebook">
+
+                        </ImageView>
+
+                        <ImageView
+                            android:id="@+id/TaxZone12DhakaPhone"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_below="@+id/TaxZone12DhakaText"
+                            android:layout_alignParentBottom="true"
+                            android:padding="5dp"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/call">
+
+                        </ImageView>
+
+
+                    </RelativeLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="12dp">
+
+
+
+                    <RelativeLayout
+                        android:padding="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <TextView
+                            android:id="@+id/TaxZone13DhakaText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginBottom="20dp"
+                            android:fontFamily="@font/li_mak_charigram_unicode"
+                            android:padding="5dp"
+                            android:text="কর অঞ্চল ১৩ (ঢাকা)"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="20sp">
+
+
+                        </TextView>
+
+
+                        <ImageView
+                            android:id="@+id/TaxZone13DhakaWebLink"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="10dp"
+                            android:padding="5dp"
+                            android:src="@drawable/weblink">
+
+                        </ImageView>
+
+                        <ImageView
+                            android:id="@+id/TaxZone13DhakaFacebookLink"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentEnd="true"
+                            android:padding="5dp"
+                            android:layout_alignParentBottom="true"
+                            android:src="@drawable/facebook">
+
+                        </ImageView>
+
+                        <ImageView
+                            android:id="@+id/TaxZone13DhakaPhone"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_below="@+id/TaxZone13DhakaText"
+                            android:layout_alignParentBottom="true"
+                            android:padding="5dp"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/call">
+
+                        </ImageView>
+
+
+                    </RelativeLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="12dp">
+
+
+
+                    <RelativeLayout
+                        android:padding="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <TextView
+                            android:id="@+id/TaxZone14DhakaText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginBottom="20dp"
+                            android:fontFamily="@font/li_mak_charigram_unicode"
+                            android:padding="5dp"
+                            android:text="কর অঞ্চল ১৪ (ঢাকা)"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="20sp">
+
+
+                        </TextView>
+
+
+                        <ImageView
+                            android:id="@+id/TaxZone14DhakaWebLink"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="10dp"
+                            android:padding="5dp"
+                            android:src="@drawable/weblink">
+
+                        </ImageView>
+
+                        <ImageView
+                            android:id="@+id/TaxZone14DhakaFacebookLink"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentEnd="true"
+                            android:padding="5dp"
+                            android:layout_alignParentBottom="true"
+                            android:src="@drawable/facebook">
+
+                        </ImageView>
+
+                        <ImageView
+                            android:id="@+id/TaxZone14DhakaPhone"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_below="@+id/TaxZone14DhakaText"
+                            android:layout_alignParentBottom="true"
+                            android:padding="5dp"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/call">
+
+                        </ImageView>
+
+
+                    </RelativeLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="12dp">
+
+
+
+                    <RelativeLayout
+                        android:padding="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <TextView
+                            android:id="@+id/TaxZone15DhakaText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginBottom="20dp"
+                            android:fontFamily="@font/li_mak_charigram_unicode"
+                            android:padding="5dp"
+                            android:text="কর অঞ্চল ১৫ (ঢাকা)"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="20sp">
+
+
+                        </TextView>
+
+
+                        <ImageView
+                            android:id="@+id/TaxZone15DhakaWebLink"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="10dp"
+                            android:padding="5dp"
+                            android:src="@drawable/weblink">
+
+                        </ImageView>
+
+                        <ImageView
+                            android:id="@+id/TaxZone15DhakaFacebookLink"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentEnd="true"
+                            android:padding="5dp"
+                            android:layout_alignParentBottom="true"
+                            android:src="@drawable/facebook">
+
+                        </ImageView>
+
+                        <ImageView
+                            android:id="@+id/TaxZone15DhakaPhone"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_below="@+id/TaxZone15DhakaText"
+                            android:layout_alignParentBottom="true"
+                            android:padding="5dp"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/call">
+
+                        </ImageView>
+
+
+                    </RelativeLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="12dp">
+
+
+
+                    <RelativeLayout
+                        android:padding="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <TextView
+                            android:id="@+id/TaxZoneMymensinghText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginBottom="20dp"
+                            android:fontFamily="@font/li_mak_charigram_unicode"
+                            android:padding="5dp"
+                            android:text="কর অঞ্চল (ময়মনসিংহ)"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="20sp">
+
+
+                        </TextView>
+
+
+                        <ImageView
+                            android:id="@+id/TaxZoneMymensinghWebLink"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="10dp"
+                            android:padding="5dp"
+                            android:src="@drawable/weblink">
+
+                        </ImageView>
+
+                        <ImageView
+                            android:id="@+id/TaxZoneMymensinghFacebookLink"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentEnd="true"
+                            android:padding="5dp"
+                            android:layout_alignParentBottom="true"
+                            android:src="@drawable/facebook">
+
+                        </ImageView>
+
+                        <ImageView
+                            android:id="@+id/TaxZoneMymensinghPhone"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_below="@+id/TaxZoneMymensinghText"
+                            android:layout_alignParentBottom="true"
+                            android:padding="5dp"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/call">
+
+                        </ImageView>
+
+
+                    </RelativeLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="12dp">
+
+
+
+                    <RelativeLayout
+                        android:padding="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <TextView
+                            android:id="@+id/TaxZoneSylhetText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginBottom="20dp"
+                            android:fontFamily="@font/li_mak_charigram_unicode"
+                            android:padding="5dp"
+                            android:text="কর অঞ্চল (সিলেট)"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="20sp">
+
+
+                        </TextView>
+
+
+                        <ImageView
+                            android:id="@+id/TaxZoneSylhetWebLink"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="10dp"
+                            android:padding="5dp"
+                            android:src="@drawable/weblink">
+
+                        </ImageView>
+
+                        <ImageView
+                            android:id="@+id/TaxZoneSylhetFacebookLink"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentEnd="true"
+                            android:padding="5dp"
+                            android:layout_alignParentBottom="true"
+                            android:src="@drawable/facebook">
+
+                        </ImageView>
+
+                        <ImageView
+                            android:id="@+id/TaxZoneSylhetPhone"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_below="@+id/TaxZoneSylhetText"
+                            android:layout_alignParentBottom="true"
+                            android:padding="5dp"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/call">
+
+                        </ImageView>
+
+
+                    </RelativeLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="12dp">
+
+
+
+                    <RelativeLayout
+                        android:padding="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <TextView
+                            android:id="@+id/TaxZone1ChittagongText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginBottom="20dp"
+                            android:fontFamily="@font/li_mak_charigram_unicode"
+                            android:padding="5dp"
+                            android:text="কর অঞ্চল ১ (চট্টগ্রাম)"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="20sp">
+
+
+                        </TextView>
+
+
+                        <ImageView
+                            android:id="@+id/TaxZone1ChittagongWebLink"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="10dp"
+                            android:padding="5dp"
+                            android:src="@drawable/weblink">
+
+                        </ImageView>
+
+                        <ImageView
+                            android:id="@+id/TaxZone1ChittagongFacebookLink"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentEnd="true"
+                            android:padding="5dp"
+                            android:layout_alignParentBottom="true"
+                            android:src="@drawable/facebook">
+
+                        </ImageView>
+
+                        <ImageView
+                            android:id="@+id/TaxZone1ChittagongPhone"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_below="@+id/TaxZone1ChittagongText"
+                            android:layout_alignParentBottom="true"
+                            android:padding="5dp"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/call">
+
+                        </ImageView>
+
+
+                    </RelativeLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="12dp">
+
+
+
+                    <RelativeLayout
+                        android:padding="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <TextView
+                            android:id="@+id/TaxZone2ChittagongText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginBottom="20dp"
+                            android:fontFamily="@font/li_mak_charigram_unicode"
+                            android:padding="5dp"
+                            android:text="কর অঞ্চল ২ (চট্টগ্রাম)"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="20sp">
+
+
+                        </TextView>
+
+
+                        <ImageView
+                            android:id="@+id/TaxZone2ChittagongWebLink"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="10dp"
+                            android:padding="5dp"
+                            android:src="@drawable/weblink">
+
+                        </ImageView>
+
+                        <ImageView
+                            android:id="@+id/TaxZone2ChittagongFacebookLink"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentEnd="true"
+                            android:padding="5dp"
+                            android:layout_alignParentBottom="true"
+                            android:src="@drawable/facebook">
+
+                        </ImageView>
+
+                        <ImageView
+                            android:id="@+id/TaxZone2ChittagongPhone"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_below="@+id/TaxZone2ChittagongText"
+                            android:layout_alignParentBottom="true"
+                            android:padding="5dp"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/call">
+
+                        </ImageView>
+
+
+                    </RelativeLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="12dp">
+
+
+
+                    <RelativeLayout
+                        android:padding="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <TextView
+                            android:id="@+id/TaxZone3ChittagongText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginBottom="20dp"
+                            android:fontFamily="@font/li_mak_charigram_unicode"
+                            android:padding="5dp"
+                            android:text="কর অঞ্চল ৩ (চট্টগ্রাম)"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="20sp">
+
+
+                        </TextView>
+
+
+                        <ImageView
+                            android:id="@+id/TaxZone3ChittagongWebLink"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="10dp"
+                            android:padding="5dp"
+                            android:src="@drawable/weblink">
+
+                        </ImageView>
+
+                        <ImageView
+                            android:id="@+id/TaxZone3ChittagongFacebookLink"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentEnd="true"
+                            android:padding="5dp"
+                            android:layout_alignParentBottom="true"
+                            android:src="@drawable/facebook">
+
+                        </ImageView>
+
+                        <ImageView
+                            android:id="@+id/TaxZone3ChittagongPhone"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_below="@+id/TaxZone3ChittagongText"
+                            android:layout_alignParentBottom="true"
+                            android:padding="5dp"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/call">
+
+                        </ImageView>
+
+
+                    </RelativeLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="12dp">
+
+
+
+                    <RelativeLayout
+                        android:padding="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <TextView
+                            android:id="@+id/TaxZone4ChittagongText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginBottom="20dp"
+                            android:fontFamily="@font/li_mak_charigram_unicode"
+                            android:padding="5dp"
+                            android:text="কর অঞ্চল ৪ (চট্টগ্রাম)"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="20sp">
+
+
+                        </TextView>
+
+
+                        <ImageView
+                            android:id="@+id/TaxZone4ChittagongWebLink"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="10dp"
+                            android:padding="5dp"
+                            android:src="@drawable/weblink">
+
+                        </ImageView>
+
+                        <ImageView
+                            android:id="@+id/TaxZone4ChittagongFacebookLink"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentEnd="true"
+                            android:padding="5dp"
+                            android:layout_alignParentBottom="true"
+                            android:src="@drawable/facebook">
+
+                        </ImageView>
+
+                        <ImageView
+                            android:id="@+id/TaxZone4ChittagongPhone"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_below="@+id/TaxZone4ChittagongText"
+                            android:layout_alignParentBottom="true"
+                            android:padding="5dp"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/call">
+
+                        </ImageView>
+
+
+                    </RelativeLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="12dp">
+
+
+
+                    <RelativeLayout
+                        android:padding="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <TextView
+                            android:id="@+id/TaxZoneGazipurText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginBottom="20dp"
+                            android:fontFamily="@font/li_mak_charigram_unicode"
+                            android:padding="5dp"
+                            android:text="কর অঞ্চল (গাজিপুর)"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="20sp">
+
+
+                        </TextView>
+
+
+                        <ImageView
+                            android:id="@+id/TaxZoneGazipurWebLink"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="10dp"
+                            android:padding="5dp"
+                            android:src="@drawable/weblink">
+
+                        </ImageView>
+
+                        <ImageView
+                            android:id="@+id/TaxZoneGazipurFacebookLink"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentEnd="true"
+                            android:padding="5dp"
+                            android:layout_alignParentBottom="true"
+                            android:src="@drawable/facebook">
+
+                        </ImageView>
+
+                        <ImageView
+                            android:id="@+id/TaxZoneGazipurPhone"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_below="@+id/TaxZoneGazipurText"
+                            android:layout_alignParentBottom="true"
+                            android:padding="5dp"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/call">
+
+                        </ImageView>
+
+
+                    </RelativeLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="12dp">
+
+
+
+                    <RelativeLayout
+                        android:padding="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <TextView
+                            android:id="@+id/TaxZoneKhulnaText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginBottom="20dp"
+                            android:fontFamily="@font/li_mak_charigram_unicode"
+                            android:padding="5dp"
+                            android:text="কর অঞ্চল (খুলনা)"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="20sp">
+
+
+                        </TextView>
+
+
+                        <ImageView
+                            android:id="@+id/TaxZoneKhulnaWebLink"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="10dp"
+                            android:padding="5dp"
+                            android:src="@drawable/weblink">
+
+                        </ImageView>
+
+                        <ImageView
+                            android:id="@+id/TaxZoneKhulnaFacebookLink"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentEnd="true"
+                            android:padding="5dp"
+                            android:layout_alignParentBottom="true"
+                            android:src="@drawable/facebook">
+
+                        </ImageView>
+
+                        <ImageView
+                            android:id="@+id/TaxZoneKhulnaPhone"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_below="@+id/TaxZoneKhulnaText"
+                            android:layout_alignParentBottom="true"
+                            android:padding="5dp"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/call">
+
+                        </ImageView>
+
+
+                    </RelativeLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="12dp">
+
+
+
+                    <RelativeLayout
+                        android:padding="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <TextView
+                            android:id="@+id/TaxZoneCumillaText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginBottom="20dp"
+                            android:fontFamily="@font/li_mak_charigram_unicode"
+                            android:padding="5dp"
+                            android:text="কর অঞ্চল (কুমিল্লা)"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="20sp">
+
+
+                        </TextView>
+
+
+                        <ImageView
+                            android:id="@+id/TaxZoneCumillaWebLink"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="10dp"
+                            android:padding="5dp"
+                            android:src="@drawable/weblink">
+
+                        </ImageView>
+
+                        <ImageView
+                            android:id="@+id/TaxZoneCumillaFacebookLink"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentEnd="true"
+                            android:padding="5dp"
+                            android:layout_alignParentBottom="true"
+                            android:src="@drawable/facebook">
+
+                        </ImageView>
+
+                        <ImageView
+                            android:id="@+id/TaxZoneCumillaPhone"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_below="@+id/TaxZoneCumillaText"
+                            android:layout_alignParentBottom="true"
+                            android:padding="5dp"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/call">
+
+                        </ImageView>
+
+
+                    </RelativeLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="12dp">
+
+
+
+                    <RelativeLayout
+                        android:padding="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <TextView
+                            android:id="@+id/TaxZoneRajshahiText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginBottom="20dp"
+                            android:fontFamily="@font/li_mak_charigram_unicode"
+                            android:padding="5dp"
+                            android:text="কর অঞ্চল (রাজশাহী)"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="20sp">
+
+
+                        </TextView>
+
+
+                        <ImageView
+                            android:id="@+id/TaxZoneRajshahiWebLink"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="10dp"
+                            android:padding="5dp"
+                            android:src="@drawable/weblink">
+
+                        </ImageView>
+
+                        <ImageView
+                            android:id="@+id/TaxZoneRajshahiFacebookLink"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentEnd="true"
+                            android:padding="5dp"
+                            android:layout_alignParentBottom="true"
+                            android:src="@drawable/facebook">
+
+                        </ImageView>
+
+                        <ImageView
+                            android:id="@+id/TaxZoneRajshahiPhone"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_below="@+id/TaxZoneRajshahiText"
+                            android:layout_alignParentBottom="true"
+                            android:padding="5dp"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/call">
+
+                        </ImageView>
+
+
+                    </RelativeLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="12dp">
+
+
+
+                    <RelativeLayout
+                        android:padding="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <TextView
+                            android:id="@+id/TaxZoneBarisalText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginBottom="20dp"
+                            android:fontFamily="@font/li_mak_charigram_unicode"
+                            android:padding="5dp"
+                            android:text="কর অঞ্চল (বরিশাল)"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="20sp">
+
+
+                        </TextView>
+
+
+                        <ImageView
+                            android:id="@+id/TaxZoneBarisalWebLink"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="10dp"
+                            android:padding="5dp"
+                            android:src="@drawable/weblink">
+
+                        </ImageView>
+
+                        <ImageView
+                            android:id="@+id/TaxZoneBarisalFacebookLink"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentEnd="true"
+                            android:padding="5dp"
+                            android:layout_alignParentBottom="true"
+                            android:src="@drawable/facebook">
+
+                        </ImageView>
+
+                        <ImageView
+                            android:id="@+id/TaxZoneBarisalPhone"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_below="@+id/TaxZoneBarisalText"
+                            android:layout_alignParentBottom="true"
+                            android:padding="5dp"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/call">
+
+                        </ImageView>
+
+
+                    </RelativeLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="12dp">
+
+
+
+                    <RelativeLayout
+                        android:padding="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <TextView
+                            android:id="@+id/TaxZoneBograText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginBottom="20dp"
+                            android:fontFamily="@font/li_mak_charigram_unicode"
+                            android:padding="5dp"
+                            android:text="কর অঞ্চল (বগুড়া)"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="20sp">
+
+
+                        </TextView>
+
+
+                        <ImageView
+                            android:id="@+id/TaxZoneBograWebLink"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="10dp"
+                            android:padding="5dp"
+                            android:src="@drawable/weblink">
+
+                        </ImageView>
+
+                        <ImageView
+                            android:id="@+id/TaxZoneBograFacebookLink"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentEnd="true"
+                            android:padding="5dp"
+                            android:layout_alignParentBottom="true"
+                            android:src="@drawable/facebook">
+
+                        </ImageView>
+
+                        <ImageView
+                            android:id="@+id/TaxZoneBograPhone"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_below="@+id/TaxZoneBograText"
+                            android:layout_alignParentBottom="true"
+                            android:padding="5dp"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/call">
+
+                        </ImageView>
+
+
+                    </RelativeLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="12dp">
+
+
+
+                    <RelativeLayout
+                        android:padding="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <TextView
+                            android:id="@+id/TaxZoneRangpurText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginBottom="20dp"
+                            android:fontFamily="@font/li_mak_charigram_unicode"
+                            android:padding="5dp"
+                            android:text="কর অঞ্চল (রংপুর)"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="20sp">
+
+
+                        </TextView>
+
+
+                        <ImageView
+                            android:id="@+id/TaxZoneRangpurWebLink"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="10dp"
+                            android:padding="5dp"
+                            android:src="@drawable/weblink">
+
+                        </ImageView>
+
+                        <ImageView
+                            android:id="@+id/TaxZoneRangpurFacebookLink"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentEnd="true"
+                            android:padding="5dp"
+                            android:layout_alignParentBottom="true"
+                            android:src="@drawable/facebook">
+
+                        </ImageView>
+
+                        <ImageView
+                            android:id="@+id/TaxZoneRangpurPhone"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_below="@+id/TaxZoneRangpurText"
+                            android:layout_alignParentBottom="true"
+                            android:padding="5dp"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/call">
+
+                        </ImageView>
+
+
+                    </RelativeLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+
+
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

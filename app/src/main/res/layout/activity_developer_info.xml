@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_of_developer_info"
+    android:orientation="vertical"
+    tools:context=".DeveloperInfo.DeveloperInfoActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="App Info"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="32sp"
+        android:textStyle="bold">
+
+
+    </TextView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/li_koshtipathor_unicode"
+        android:text="Tax Flow"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+
+        android:textSize="32sp">
+
+
+    </TextView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="@font/li_mak_charigram_unicode"
+        android:padding="10dp"
+        android:text="@string/TaxFlowAppDetails"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="17sp">
+
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:padding="10dp"
+        android:text="@string/developer_info"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold">
+
+
+    </TextView>
+
+    <View
+        android:layout_width="220dp"
+        android:layout_height="3dp"
+        android:layout_gravity="center"
+        android:background="@color/blue"
+        android:padding="5dp">
+
+    </View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/MoreApp"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:text="More App"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            app:drawableTopCompat="@drawable/app">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/RateApp"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:drawableTop="@drawable/rating"
+            android:text="Rate App"
+            android:textAlignment="center"
+            android:textColor="@color/black">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/Email"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:drawableTop="@drawable/email"
+            android:text="Mail"
+            android:textAlignment="center"
+            android:textColor="@color/black">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/ShareApp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:drawableTop="@drawable/send"
+            android:text="Share"
+            android:textAlignment="center"
+            android:textColor="@color/black">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:layout_marginBottom="50dp"
+    tools:context=".CardETin.EtinRegistrationProcessActivity">
+
+
+    <com.github.barteksc.pdfviewer.PDFView
+        android:id="@+id/PdfEtinRegistrationView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </com.github.barteksc.pdfviewer.PDFView>
+
+
+</RelativeLayout>
