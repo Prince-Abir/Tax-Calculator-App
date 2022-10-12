@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string-array name="Part1Strings">
+        <item>Tax Calculate</item>
+        <item>e-Return FAQ</item>
+        <item>E-Tin</item>
+        <item>Vat FAQ</item>
+        <item>Vat e-Services</item>
+        <item>Vat Forms</item>
+        <item>Tariff</item>
+        <item>Customs e-Services</item>
+    </string-array>
+
+
+</resources>

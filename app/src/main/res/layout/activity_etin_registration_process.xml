@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:padding="10dp"
     android:layout_marginBottom="50dp"
-    tools:context=".CardETin.EtinRegistrationProcessActivity">
+    tools:context=".Tax.EtinRegistrationProcessActivity">
 
 
     <com.github.barteksc.pdfviewer.PDFView

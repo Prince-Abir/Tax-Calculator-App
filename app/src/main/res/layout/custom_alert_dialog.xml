@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:backgroundTint="@color/yellow"
+    android:orientation="vertical"
+    app:cardCornerRadius="14dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/li_mayukh_unicode"
+            android:text="@string/alert_text"
+            android:textColor="@color/black"
+            android:textSize="18sp">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/alertButton"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_gravity="end"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/white"
+            android:text="বন্ধ করুন"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp">
+
+        </Button>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

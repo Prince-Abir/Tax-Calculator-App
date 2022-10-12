@@ -3,21 +3,43 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/user/AndroidStudioProjects/TaxCalculator/app/src/main/res/layout/activity_card_calculator.xml" value="0.2" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/TaxCalculator/app/src/main/res/layout/activity_card_etin.xml" value="0.15755627009646303" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/TaxCalculator/app/src/main/res/layout/activity_card_frequently_asked_question.xml" value="0.11080958842152872" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/TaxCalculator/app/src/main/res/drawable/background_stroke.xml" value="0.1475" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/TaxCalculator/app/src/main/res/drawable/customs.xml" value="0.15" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/TaxCalculator/app/src/main/res/drawable/home.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/TaxCalculator/app/src/main/res/drawable/more_icon.xml" value="0.1475" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/TaxCalculator/app/src/main/res/drawable/tax.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/TaxCalculator/app/src/main/res/drawable/toolbar_shape.xml" value="0.12" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/TaxCalculator/app/src/main/res/drawable/vat.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/TaxCalculator/app/src/main/res/drawable/vector_tax.xml" value="0.1475" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/TaxCalculator/app/src/main/res/layout-large/activity_card_calculator.xml" value="0.33" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/TaxCalculator/app/src/main/res/layout-large/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/TaxCalculator/app/src/main/res/layout-normal/activity_card_calculator.xml" value="0.25" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/TaxCalculator/app/src/main/res/layout-normal/activity_main.xml" value="0.18" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/TaxCalculator/app/src/main/res/layout-normal/activity_tax_main.xml" value="0.16" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/TaxCalculator/app/src/main/res/layout-small/activity_main.xml" value="0.8289473684210527" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/TaxCalculator/app/src/main/res/layout/activity_card_calculator.xml" value="0.15" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/TaxCalculator/app/src/main/res/layout/activity_card_etin.xml" value="0.20974289580514208" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/TaxCalculator/app/src/main/res/layout/activity_card_frequently_asked_question.xml" value="0.16145833333333334" />
         <entry key="..\:/Users/user/AndroidStudioProjects/TaxCalculator/app/src/main/res/layout/activity_card_income_tax_return.xml" value="0.16" />
         <entry key="..\:/Users/user/AndroidStudioProjects/TaxCalculator/app/src/main/res/layout/activity_developer_info.xml" value="0.18" />
         <entry key="..\:/Users/user/AndroidStudioProjects/TaxCalculator/app/src/main/res/layout/activity_etin_registration_process.xml" value="0.1701388888888889" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/TaxCalculator/app/src/main/res/layout/activity_income_tax_info.xml" value="0.1" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/TaxCalculator/app/src/main/res/layout/activity_main.xml" value="0.16" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/TaxCalculator/app/src/main/res/layout/activity_result.xml" value="0.14" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/TaxCalculator/app/src/main/res/layout/activity_income_tax_info.xml" value="0.22" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/TaxCalculator/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/TaxCalculator/app/src/main/res/layout/activity_result.xml" value="0.33" />
         <entry key="..\:/Users/user/AndroidStudioProjects/TaxCalculator/app/src/main/res/layout/activity_splash_screen.xml" value="0.14" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/TaxCalculator/app/src/main/res/layout/activity_tax_forms.xml" value="0.15" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/TaxCalculator/app/src/main/res/layout/activity_tax_main.xml" value="0.16" />
         <entry key="..\:/Users/user/AndroidStudioProjects/TaxCalculator/app/src/main/res/layout/activity_tax_zone.xml" value="0.1701388888888889" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/TaxCalculator/app/src/main/res/layout/custom_alert_dialog.xml" value="0.22" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/TaxCalculator/app/src/main/res/layout/custom_alertdialog_exit_app.xml" value="0.16145833333333334" />
         <entry key="..\:/Users/user/AndroidStudioProjects/TaxCalculator/app/src/main/res/layout/developer_info_layout.xml" value="0.1607638888888889" />
         <entry key="..\:/Users/user/AndroidStudioProjects/TaxCalculator/app/src/main/res/layout/etin_registration_process_layout.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/TaxCalculator/app/src/main/res/layout/faq_last_seventeen_cardview.xml" value="0.16145833333333334" />
         <entry key="..\:/Users/user/AndroidStudioProjects/TaxCalculator/app/src/main/res/layout/faq_last_thirtytwo_cardview.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/TaxCalculator/app/src/main/res/layout/sample_cardview.xml" value="0.18" />
         <entry key="..\:/Users/user/AndroidStudioProjects/TaxCalculator/app/src/main/res/layout/spinner_custom_layout.xml" value="0.1701388888888889" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/TaxCalculator/app/src/main/res/layout/toolbar.xml" value="0.18" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/TaxCalculator/app/src/main/res/menu/navigation_menu.xml" value="0.16145833333333334" />
         <entry key="..\:/Users/user/AndroidStudioProjects/TaxCalculator/app/src/main/res/mipmap-anydpi-v26/ic_launcher_background.xml" value="0.18090277777777777" />
         <entry key="..\:/Users/user/AndroidStudioProjects/TaxCalculator/app/src/main/res/mipmap-anydpi-v26/ic_launcher_background_round.xml" value="0.18090277777777777" />
         <entry key="..\:/Users/user/AndroidStudioProjects/TaxCalculator/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.18090277777777777" />

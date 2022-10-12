@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.app.taxcalculator">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.PrinceTechSolution.TaxCalculator">
+
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
 
     <application
         android:allowBackup="true"
@@ -11,44 +20,52 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TaxCalculator">
         <activity
-            android:name=".CardETin.EtinRegistrationProcessActivity"
+            android:name="com.PrinceTechSolution.TaxCalculator.Tax.TaxForms"
             android:exported="false"
-            android:parentActivityName=".CardETin.CardEtinActivity"/>
+            android:parentActivityName="com.PrinceTechSolution.TaxCalculator.Tax.TaxMain"/>
         <activity
-            android:name=".DeveloperInfo.DeveloperInfoActivity"
+            android:name="com.PrinceTechSolution.TaxCalculator.MainActivity"
             android:exported="false"
-            android:parentActivityName=".MainActivity"
             android:theme="@style/Theme.MainActivityDesign" />
         <activity
-            android:name=".IncomeTaxInfo.IncomeTaxInfo"
+            android:name="com.PrinceTechSolution.TaxCalculator.Tax.EtinRegistrationProcessActivity"
             android:exported="false"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName="com.PrinceTechSolution.TaxCalculator.Tax.CardEtinActivity" />
         <activity
-            android:name=".FrequentlyAskedQuestion.CardFrequentlyAskedQuestion"
+            android:name="com.PrinceTechSolution.TaxCalculator.DeveloperInfo.DeveloperInfoActivity"
             android:exported="false"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName="com.PrinceTechSolution.TaxCalculator.Tax.TaxMain"
+            android:theme="@style/Theme.MainActivityDesign" />
         <activity
-            android:name=".TaxZones.TaxZoneActivity"
+            android:name="com.PrinceTechSolution.TaxCalculator.Tax.IncomeTaxInfo"
             android:exported="false"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName="com.PrinceTechSolution.TaxCalculator.Tax.TaxMain" />
         <activity
-            android:name=".CardIncomeTaxReturn.CardIncomeTaxReturn"
+            android:name="com.PrinceTechSolution.TaxCalculator.Tax.CardFrequentlyAskedQuestion"
             android:exported="false"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName="com.PrinceTechSolution.TaxCalculator.Tax.TaxMain" />
         <activity
-            android:name=".CardETin.CardEtinActivity"
+            android:name="com.PrinceTechSolution.TaxCalculator.Tax.TaxZoneActivity"
             android:exported="false"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName="com.PrinceTechSolution.TaxCalculator.Tax.TaxMain" />
         <activity
-            android:name=".Calculator.Result"
+            android:name="com.PrinceTechSolution.TaxCalculator.Tax.CardIncomeTaxReturn"
             android:exported="false"
-            android:parentActivityName=".Calculator.Card_Calculator_Activity" />
+            android:parentActivityName="com.PrinceTechSolution.TaxCalculator.Tax.TaxMain" />
         <activity
-            android:name=".Calculator.Card_Calculator_Activity"
+            android:name="com.PrinceTechSolution.TaxCalculator.Tax.CardEtinActivity"
             android:exported="false"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName="com.PrinceTechSolution.TaxCalculator.Tax.TaxMain" />
         <activity
-            android:name=".SplashScreen.SplashScreen"
+            android:name="com.PrinceTechSolution.TaxCalculator.Tax.Result"
+            android:exported="false"
+            android:parentActivityName="com.PrinceTechSolution.TaxCalculator.Tax.Card_Calculator_Activity" />
+        <activity
+            android:name="com.PrinceTechSolution.TaxCalculator.Tax.Card_Calculator_Activity"
+            android:exported="false"
+            android:parentActivityName="com.PrinceTechSolution.TaxCalculator.Tax.TaxMain" />
+        <activity
+            android:name="com.PrinceTechSolution.TaxCalculator.SplashScreen.SplashScreen"
             android:exported="true"
             android:theme="@style/Theme.SplashScreenDesign">
             <intent-filter>
@@ -58,13 +75,20 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name="com.PrinceTechSolution.TaxCalculator.Tax.TaxMain"
             android:exported="true"
+            android:parentActivityName="com.PrinceTechSolution.TaxCalculator.MainActivity"
             android:theme="@style/Theme.MainActivityDesign" />
 
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
+
+        <!-- Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713 -->
+        <!-- Main Admob app ID: ca-app-pub-2356323669011082~1872032408-->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-2356323669011082~1872032408" />
     </application>
 
 </manifest>

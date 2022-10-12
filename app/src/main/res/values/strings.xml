@@ -1,7 +1,20 @@
 <resources>
-    <string name="app_name">Tax Flow</string>
-    <string name="Developer_info">Developed by\nPrince Ayaan\n\nVersion : 1.0</string>
-    <string name="e_tin_card_title">E-tin (ই-টিন)</string>
+
+    <!--    //Sample Ids-->
+    <!--    <string name="bannerID">ca-app-pub-3940256099942544/6300978111</string>-->
+    <!--    <string name="interstitialId">ca-app-pub-3940256099942544/1033173712</string>-->
+    <!--    <string name="nativeId">ca-app-pub-3940256099942544/2247696110</string>-->
+
+
+    <!--    //Main Ids-->
+    <string name="bannerID">ca-app-pub-2356323669011082/4137720209</string>
+    <string name="interstitialId">ca-app-pub-2356323669011082/9356588990</string>
+    <string name="nativeId">ca-app-pub-2356323669011082/6325508966</string>
+
+
+    <string name="app_name">NBR Helpdesk</string>
+    <string name="Developer_info">Developed by\nPrince Tech Solution\n\n</string>
+    <string name="e_tin_card_title">ই-টিন কি?</string>
 
 
     <string-array name="Categories">
@@ -18,12 +31,102 @@
     <string name="incomeTaxReturn">আয়কর রিটার্ন</string>
     <string name="incomeTaxFAQ">আয়কর জিজ্ঞাসা</string>
     <string name="Locations">কর অঞ্চলসমূহ</string>
+    <string name="tax_forms">ট্যাক্স ফর্ম</string>
+    <string name="return_verify">রিটার্ন ভেরিফাই</string>
     <string name="incomeTaxLaws">আয়কর পরিপত্র</string>
     <string name="incomeTaxReturnTitle">আয়কর রিটার্ন কি,কিভাবে করবেন,কোথায় করবেন?</string>
     <string name="incomeTaxReturnForm">ডাউনলোড আয়কর রিটার্ন ফর্ম (পিডিএফ)</string>
 
 
-    <string name="TaxFlowAppDetails">Tax Flow is a simple App for Bangladeshi Citizen for not Only Calculating the Tax but knowing everything about tax and the process for paying tax as well!Tax Flow will help you to know Income Tax,Income Tax Return,E-tin,Tax Zones etc.</string>
-    <string name="developer_info">Tax Flow Designed and Developed by PrinceTechSoft.Ltd\n CC Alright reserved by the developer and team</string>
+    <string name="TaxFlowAppDetails">"আমার ট্যাক্স" is a simple app for people of bangladesh for calculating the payable tax and Knowing the information about income tax, tax return, tax Zones and many more!</string>
+    <string name="developer_info">আমার ট্যাক্স Designed and Developed by Prince Tech Solution\n CC Alright reserved by the developer and team</string>
+    <string name="ToolBar_Details">ভ্যাট, ট্যাক্স, কাস্টমসহ জাতীয় রাজস্ব বোর্ডের সকল সেবা সমুহ...</string>
+    <string name="alert_text">সম্মানিত ইউজার,আমরা আন্তরিকভাবে দুঃখিত! এই ফিচারটির উপর আমাদের কাজ চলমান রয়েছে। খুব দ্রুতই আমরা এই ফিচারটি আমাদের অ্যাপে যুক্ত করবো। আপনাকে অসংখ্য ধন্যবাদ আমাদের সাথে থাকার জন্য।\n\n টিম, প্রিন্স টেক সলুউশন</string>
+
+    <string name="tax_calculate">আয়কর হিসাব</string>
+    <string name="e_tin">ই-টিন জিজ্ঞাসা</string>
+    <string name="income_tax_return"> আয়কর রিটার্ন</string>
+    <string name="tax_faq">আয়কর জিজ্ঞাসা</string>
+    <string name="tax_location">আয়কর অফিসসমূহ</string>
+    <string name="tax_paripatra">আয়কর পরিপত্র</string>
+    <string name="e_return_faq">ই-রিটার্ন জিজ্ঞাসা</string>
+    <string name="vat_faq">ভ্যাট জিজ্ঞাসা</string>
+    <string name="vat_calculate">ভ্যাট হিসাব</string>
+    <string name="vat_e_service">ভ্যাট ই-সেবা</string>
+    <string name="vat_forms">ভ্যাট ফর্ম</string>
+    <string name="vat_instruction">ভ্যাট নির্দেশিকা</string>
+    <string name="vat_rules">ভ্যাট নিয়ম-কানুন</string>
+    <string name="customs_faq">কাস্টম জিজ্ঞাসা</string>
+    <string name="customs_acts"> কাস্টম জিজ্ঞাসা</string>
+    <string name="customs_Gos">কাস্টম সাধারন আদেশ</string>
+    <string name="custom_tariff">কাস্টম ট্যারিফ</string>
+    <string name="custom_e_service">কাস্টম ই-সেবা</string>
+
+
+    <string-array name="TaxString">
+
+        <item>@string/tax_calculate</item>
+        <item>@string/e_tin</item>
+        <item>@string/income_tax_return</item>
+        <item>@string/tax_faq</item>
+
+    </string-array>
+
+    <string-array name="MainPartString">
+
+        <item>@string/tax_calculate</item>
+        <item>@string/e_return_faq</item>
+        <item>@string/e_tin</item>
+        <item>@string/vat_faq</item>
+        <item>@string/vat_e_service</item>
+        <item>@string/vat_forms</item>
+        <item>@string/custom_tariff</item>
+        <item>@string/custom_e_service</item>
+
+    </string-array>
+
+    <string-array name="VatString">
+
+        <item>@string/vat_calculate</item>
+        <item>@string/vat_forms</item>
+        <item>@string/vat_e_service</item>
+        <item>@string/vat_faq</item>
+        <item>@string/vat_instruction</item>
+        <item>@string/vat_rules</item>
+
+
+    </string-array>
+
+    <string-array name="CustomString">
+
+        <item>@string/custom_tariff</item>
+        <item>@string/customs_faq</item>
+        <item>@string/customs_acts</item>
+        <item>@string/custom_e_service</item>
+        <item>@string/customs_Gos</item>
+
+    </string-array>
+
+
+    <string-array name="tax_form_links">
+
+        <item name="e_tin_registration_form">https://nbr.gov.bd/uploads/form/483.pdf</item>
+        <item name="Tin_application_form">https://nbr.gov.bd/uploads/form/441.pdf</item>
+        <item name="individual_return_form">https://nbr.gov.bd/uploads/form/94.pdf</item>
+        <item name="salaried_return_form">https://nbr.gov.bd/uploads/form/92.pdf</item>
+        <item name="house_property_form">https://nbr.gov.bd/uploads/form/90.pdf</item>
+        <item name="business_profession_return_form">https://nbr.gov.bd/uploads/form/88.pdf</item>
+        <item name="assets_liabilities_return_form">https://nbr.gov.bd/uploads/form/84.pdf</item>
+        <item name="life_style_expenses_return_form">https://nbr.gov.bd/uploads/form/Statement_of_Expenses_Relating_to_Life-style-IT10BB2016.pdf</item>
+        <item name="return_for_company">https://nbr.gov.bd/uploads/form/IT_11GHA20161.pdf</item>
+        <item name="return_withholding_tax">https://nbr.gov.bd/uploads/form/76.pdf</item>
+        <item name="return_salaried_individual">https://nbr.gov.bd/uploads/form/72.pdf</item>
+        <item name="certificate_collection_of_tax_form">https://nbr.gov.bd/uploads/form/69.pdf</item>
+        <item name="certificate_of_tax_Deduction_form">https://nbr.gov.bd/uploads/form/67.pdf</item>
+        <item name="statement_of_tax_deduction_from_salaries">https://nbr.gov.bd/uploads/form/65.pdf</item>
+        <item name="application_for_extension_return_submission_time">https://nbr.gov.bd/uploads/form/Time_extension.pdf</item>
+
+    </string-array>
+
 
 </resources>

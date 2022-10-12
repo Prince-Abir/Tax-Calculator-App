@@ -26,7 +26,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="@font/li_koshtipathor_unicode"
-        android:text="Tax Flow"
+        android:text="@string/app_name"
         android:textAlignment="center"
         android:textColor="@color/white"
 
@@ -42,12 +42,12 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="120dp"
         android:layout_marginRight="20dp"
-        android:fontFamily="@font/li_mak_charigram_unicode"
         android:padding="10dp"
         android:text="@string/TaxFlowAppDetails"
         android:textAlignment="center"
+        android:textSize="18sp"
         android:textColor="@color/black"
-        android:textSize="17sp">
+        android:textStyle="bold|italic">
 
 
     </TextView>
@@ -85,8 +85,8 @@
 
         <TextView
             android:id="@+id/MoreApp"
-            android:layout_width="wrap_content"
-            android:layout_height="60dp"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:text="More App"
             android:textAlignment="center"
@@ -97,8 +97,8 @@
 
         <TextView
             android:id="@+id/RateApp"
-            android:layout_width="wrap_content"
-            android:layout_height="60dp"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:drawableTop="@drawable/rating"
             android:text="Rate App"
@@ -110,7 +110,7 @@
         <TextView
             android:id="@+id/Email"
             android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:drawableTop="@drawable/email"
             android:text="Mail"
@@ -122,7 +122,7 @@
         <TextView
             android:id="@+id/ShareApp"
             android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:drawableTop="@drawable/send"
             android:text="Share"

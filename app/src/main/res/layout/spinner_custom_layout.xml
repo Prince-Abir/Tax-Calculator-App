@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center_horizontal"
+    android:layout_centerHorizontal="true"
+    android:gravity="center"
     android:layout_margin="20dp">
 
     <TextView
-        android:padding="10dp"
         android:id="@+id/spinnerTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:textAlignment="center"
+        android:padding="10dp"
         android:text=""
+        android:textAlignment="center"
         android:textColor="@color/black"
-        android:textStyle="bold"
-        android:textSize="17sp">
+        android:textSize="17sp"
+        android:textStyle="bold">
+
     </TextView>
 
-</LinearLayout>
+</RelativeLayout>

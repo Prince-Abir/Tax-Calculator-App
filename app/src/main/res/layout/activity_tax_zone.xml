@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".TaxZones.TaxZoneActivity">
+    tools:context=".Tax.TaxZoneActivity">
 
 
     <LinearLayout
+        android:id="@+id/HeadText"
+        android:layout_alignParentTop="true"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:layout_gravity="center_horizontal"
         android:padding="5dp"
-        android:layout_margin="10dp"
         android:orientation="horizontal">
 
 
@@ -42,7 +43,7 @@
                 android:gravity="center"
                 android:layout_gravity="center"
                 android:padding="5dp"
-                android:text="Tax Zone (কর অঞ্চলসমূহ)"
+                android:text="কর অঞ্চলসমূহ"
                 android:textColor="@color/black"
                 android:textSize="18sp">
 
@@ -65,9 +66,11 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/MidSection"
+        android:layout_above="@id/AdSection"
+        android:layout_below="@id/HeadText"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginBottom="60dp"
         android:orientation="vertical">
 
 
@@ -2108,9 +2111,6 @@
                 </androidx.cardview.widget.CardView>
 
 
-
-
-
             </LinearLayout>
 
 
@@ -2118,8 +2118,24 @@
 
     </LinearLayout>
 
+    <RelativeLayout
+        android:id="@+id/AdSection"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_alignParentBottom="true">
+
+        <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/bannerID">
+
+        </com.google.android.gms.ads.AdView>
+
+    </RelativeLayout>
 
 
-
-
-</LinearLayout>
+</RelativeLayout>

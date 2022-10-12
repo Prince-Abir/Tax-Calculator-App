@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-
-    tools:context=".Calculator.Card_Calculator_Activity">
+    tools:context=".Tax.Card_Calculator_Activity">
 
     <LinearLayout
+        android:id="@+id/HeadText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
         android:orientation="horizontal"
         android:layout_margin="10dp"
         android:padding="10dp">
@@ -22,7 +22,7 @@
             android:layout_gravity="center"
             android:layout_marginStart="20dp"
             android:padding="5dp"
-            android:src="@drawable/tax">
+            android:src="@drawable/vector_tax">
 
         </ImageView>
 
@@ -63,22 +63,24 @@
 
     <Spinner
         android:id="@+id/spinnerId"
-        android:spinnerMode="dialog"
         android:layout_width="220dp"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:textAlignment="center"
-        android:layout_margin="5dp"
-        android:gravity="center">
+        android:layout_below="@id/HeadText"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:spinnerMode="dialog"
+        android:textAlignment="center">
 
     </Spinner>
 
     <LinearLayout
+        android:id="@+id/CalculateSection"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:padding="10dp"
-        android:layout_marginBottom="60dp">
+        android:layout_above="@id/AdSection"
+        android:layout_below="@id/spinnerId"
+        android:padding="10dp">
 
         <ScrollView
             android:layout_width="match_parent"
@@ -428,7 +430,7 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="200dp"
+                    android:layout_height="120dp"
                     android:layout_margin="10dp"
                     android:gravity="center">
 
@@ -438,7 +440,7 @@
                         android:layout_height="65dp"
                         android:layout_gravity="center"
                         android:layout_margin="20dp"
-                        android:backgroundTint="#6FFF39"
+                        android:backgroundTint="#00FF0A"
                         android:fontFamily="@font/baloo_chettan"
                         android:text="Calculate"
                         android:textColor="@color/black"
@@ -453,14 +455,27 @@
             </LinearLayout>
 
 
-
-
-
         </ScrollView>
 
 
     </LinearLayout>
 
+    <RelativeLayout
+        android:id="@+id/AdSection"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_alignParentBottom="true">
+
+        <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/bannerID"></com.google.android.gms.ads.AdView>
+
+    </RelativeLayout>
 
 
-</LinearLayout>
+</RelativeLayout>
